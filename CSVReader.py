@@ -14,7 +14,7 @@ class CSVReader:
                 for row in reader:
                     websites_list.append(row[1])
                     count = count + 1
-                    if count > 1000:
+                    if count > 5:
                         break
             return websites_list
         except FileNotFoundError as file_not_found:
