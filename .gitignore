@@ -1,0 +1,8 @@
+*.pyc
+.venev/
+.idea/
+*.log
+config.ini
+.evn
+dist/
+build/
